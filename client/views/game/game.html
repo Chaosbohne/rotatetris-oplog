@@ -1,0 +1,9 @@
+<template name="game">
+  <div id="game" class="container">
+    {{#if isPlaying}}
+      {{> play}}
+    {{else}}
+      {{> wait}}
+    {{/if}}
+  </div>
+</template>

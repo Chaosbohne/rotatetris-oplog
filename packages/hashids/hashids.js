@@ -1,1 +1,0 @@
-Hashids = Npm.require("hashids");

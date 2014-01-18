@@ -3,14 +3,22 @@
   "dependencies": {
     "basePackages": {
       "iron-router": {
-        "version": "0.6.1"
+        "version": "0.6.2"
+      },
+      "npm": {
+        "version": "0.2.6"
       }
     },
     "packages": {
       "iron-router": {
         "git": "https://github.com/EventedMind/iron-router.git",
-        "tag": "v0.6.1",
-        "commit": "4e1ee0581d68bff422a915dacb0bd30eae10fe08"
+        "tag": "v0.6.2",
+        "commit": "ce56e58b45624dce992490f3a1c10f10d3948bae"
+      },
+      "npm": {
+        "git": "https://github.com/arunoda/meteor-npm.git",
+        "tag": "v0.2.6",
+        "commit": "177ab6118de5bf8cffb19481343d5762ff7a2aaf"
       }
     }
   }
